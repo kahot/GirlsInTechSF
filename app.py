@@ -44,3 +44,6 @@ def vivian():
     return "I'm Vivian"
     
 
+@app.route('/names/kahot')
+def branch_ex():
+    return "This is Kaho's branch"
